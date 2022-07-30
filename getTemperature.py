@@ -10,8 +10,8 @@ from openpyxl import load_workbook
 #查询城市
 City = "beijing"
 #查询开始&结束时间
-timeBegin = "20220720"
-timeEnd = "20220725"
+timeBegin = "20220630"
+timeEnd = "20220730"
 
 # URL常量
 website = "https://www.tianqi.com"
