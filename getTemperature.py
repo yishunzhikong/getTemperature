@@ -3,6 +3,7 @@ import re
 import os
 import time
 import datetime
+import random
 import openpyxl
 from openpyxl import load_workbook
 
@@ -11,7 +12,7 @@ from openpyxl import load_workbook
 City = "songpan"
 #查询开始&结束时间
 timeBegin = "20190815"
-timeEnd = "20190820"
+timeEnd = "20220815"
 
 # URL常量
 website = "https://www.tianqi.com"
@@ -62,6 +63,7 @@ if __name__ == '__main__':
         tempWs.cell(i, 2, value=tp[1])
         tempWs.cell(i, 3, value=tp[2])
         begin += delta
+        time.sleep(random.randint(5,20)/10)
         i += 1
         #debug
         print(tp)
