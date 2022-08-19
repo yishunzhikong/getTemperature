@@ -9,7 +9,7 @@ from openpyxl import load_workbook
 
 #必改数据
 #查询城市
-City = "songpan"
+City = "beijing"
 #查询开始&结束时间
 timeBegin = "20190815"
 timeEnd = "20220815"
