@@ -11,7 +11,7 @@ from openpyxl import load_workbook
 #查询城市
 City = "beijing"
 #查询开始&结束时间
-timeBegin = "20190815"
+timeBegin = "20220814"
 timeEnd = "20220815"
 
 # URL常量
