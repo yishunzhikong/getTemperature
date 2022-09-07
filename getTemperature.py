@@ -7,8 +7,6 @@ import random
 import openpyxl
 from openpyxl import load_workbook
 
-#test
-
 #必改数据
 #查询城市
 City = "beijing"
